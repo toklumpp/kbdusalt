@@ -2,40 +2,29 @@
 
 ## Description
 
-I created this keyboard layout to use accented characters on an US
-keyboard without dead keys interfering with the base characters.
-All assignments are exactly the same as on the standard US-International
-layout, except for the dead keys. The dead keys were moved to
-the AltGr layer and replaced with their plain versions on the base layer.
-The layout is therefore 100% backwards-compatible with the standard US
-keyboard layout except for the right Alt key which serves as AltGr
-(see below).
+This keyboard layout makes it possible to type accented characters on a US keyboard without having dead keys interfere with ordinary characters.
+
+The layout was inspired by the **Linux US-International AltGr dead-key layout** and is **100% compatible with the Microsoft US-International keyboard layout**. All character assignments are identical to the standard Microsoft US-International layout, except for the placement of the dead keys.
+
+The dead keys have been moved to the **AltGr layer** and replaced with their plain-character versions on the base layer. As a result, the layout remains 100% compatible with the standard US keyboard layout, with the exception that the **Right Alt** key functions as **AltGr** (see more below).
 
 ## Tools
 
-The layout was created using Microsoft Keyboard Layout Creator.
+The layout was created using **Microsoft Keyboard Layout Creator**.
 
-## Registry files
+## Registry Files
 
-If you want your layout to be absolutely 1-to-1 compatible to the standard
-US layout you can use these registry scripts to remap the AltGr key to Alt again.
+If you want the layout to be completely 1-to-1 compatible with the standard US keyboard layout, you can use the included registry scripts to remap the AltGr key.
 
-The registry file remap_win2altgr_altgr2alt.reg remaps the Windows keys
-to "Right Alt" and the right Alt key to "Left Alt". Therefore the Windows
-keys serve as AltGr keys for the international layout and the Alt keys work
-as in the non-international layout.
+The `remap_win2altgr_altgr2alt.reg` registry file remaps the Windows keys to **Right Alt** and the Right Alt key to **Left Alt**. This allows the Windows keys to function as AltGr keys for the international layout while preserving the usual behavior of the Alt keys.
 
-The registry file remap_altgr2alt.reg only remaps the right Alt key to
-"Left Alt". The Alt keys will work as in the non-international layout
-while the international characters are only reachable through Ctrl+Alt.
+The `remap_altgr2alt.reg` registry file remaps only the Right Alt key to **Left Alt**. The Alt keys then behave as they do on the standard US layout, while international characters remain accessible through **Ctrl+Alt** combinations.
 
-The file restore_keys.reg removes the custom key assignments and
-restores the default behaviour.
+The `restore_keys.reg` file removes the custom key assignments and restores the default behavior.
 
 ## Contact
 
-If you want to contact me you can reach me at <info@toklumpp.net>.
-You can also check out my website at https://www.toklumpp.net.
+For questions or comments, contact <info@toklumpp.net> or visit <https://www.toklumpp.net>.
 
 ## License
 
