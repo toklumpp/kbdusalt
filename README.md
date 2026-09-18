@@ -10,7 +10,8 @@ The dead keys have been moved to the **AltGr layer** and replaced with their pla
 
 ## Tools
 
-The layout was created using **Microsoft Keyboard Layout Creator**.
+The layout was created using **Microsoft Keyboard Layout Creator**. The source file is
+`kbdusalt.klc`.
 
 ## Registry Files
 
