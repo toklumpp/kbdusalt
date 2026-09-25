@@ -21,6 +21,8 @@ The `remap_win2altgr_altgr2alt.reg` registry file remaps the Windows keys to **R
 
 The `remap_altgr2alt.reg` registry file remaps only the Right Alt key to **Left Alt**. The Alt keys then behave as they do on the standard US layout, while international characters remain accessible through **Ctrl+Alt** combinations.
 
+The `remap_win2altgr.reg` registry file remaps only the Windows keys to **Right Alt**. This allows to have Alt Gr on both sides on international laptops featuring only one Windows key but an AltGr key in place of the right Alt key.
+
 The `restore_keys.reg` file removes the custom key assignments and restores the default behavior.
 
 ## Contact
